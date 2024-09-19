@@ -15,6 +15,8 @@ This repo allows you to test this with two methods: `testA` and `testB`.
 after clonning this repo, run `meteor npm install` to install the depdencencies. After that, run the app with `meteor`.
 
 Go to localhost:3000 and try to call the two methods with `Meteor.call('methodName')` and take a look at the server logs. You should see the user document being printed correctly for each method.
+![image](https://github.com/user-attachments/assets/58dd73d6-3187-45a1-a33f-5ae29a1fe618)
+
 
 Now, stop the app and update the Meteor version with `meteor update`, which should update you to 3.0. After the update is done, run `rm -rf node_modules/` and `meteor npm install` to make sure all packages are updated.
 
@@ -22,3 +24,7 @@ Now, run the app with `meteor` again and run the same tests you ran before, with
 
 - `testA`, which doesn't use `async` and `await`, prints promises instead of user documents
 - `testB`, which uses `async` and `await`, works the same as it did in 2.16, printing the user documents
+
+![image](https://github.com/user-attachments/assets/fb724132-80b9-4e0e-b0a1-4cf53a09df0a)
+
+
